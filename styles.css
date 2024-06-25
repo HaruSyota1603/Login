@@ -1,0 +1,160 @@
+/*  body {
+    background: url(https://wallpapercave.com/wp/wp10264239.jpg);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  */
+
+/* RESET GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    background: url("wp10264239.webp") center no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #08558b;
+}
+
+/* CONTAINER LOGIN */
+
+#login-container {
+    background-color: #fff;
+    width: 25rem;
+    padding: 1.25rem 1.8rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ÁREA DO FORMULÁRIO */
+
+label,
+input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+    color: #000000;
+
+
+}
+
+input {
+    border-bottom: 2px solid #32323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+}
+
+input:focus {
+    border-bottom: 2px solid #ffb7c5;
+}
+
+#forgot-pass {
+    display: block;
+    text-align: right;
+
+}
+
+input[type="submit"] {
+    background-color: #ce9ace;
+    text-align: center;
+    color: #fff;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+input[type="submit"]:hover {
+    background: linear-gradient(45deg, #1A0623, #9D1350)bottom;
+    width: 100%;
+}
+
+
+/* SOCIAL CONTAINER */
+
+#social-container,
+social-container,
+p {
+    margin-bottom: 1.25rem;
+    color: antiquewhite;
+
+}
+
+#social-container i {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: antiquewhite;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all 1.5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+/* COLORAÇÃO DOS ICONS */
+.fa-facebook:hover {
+    background-color: #1f7bf2;
+    transform: scale(150%);
+}
+
+.fa-linkedin:hover {
+    background-color: #08558b;
+    transform: scale(150%);
+}
+
+.fa-yahoo:hover {
+    background-color: #7A1FF5;
+    transform: scale(150%);
+}
+
+.fa-pinterest:hover {
+    background-color: #D70014;
+    transform: scale(150%);
+    
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(125deg, #F6BC00, #FD0215, #920AEF, #F600AD) bottom;
+    transform: scale(150%);
+}
+
+.fa-whatsapp:hover {
+    background: linear-gradient(#5ff475, #38c33a) bottom;
+    transform: scale(150%);
+}
